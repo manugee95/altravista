@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif !important;
+}
+html{
+    font-size: 10px;
+}
+
+/* styling header */
+.navbar{
+    padding: 2px 0 !important;
+}
+.navbar-nav{
+    gap: 10px;
+}
+.navbar img{
+    height: 80px;
+    width: 150px;
+}
+.navbar-nav a{
+    /* color: #592B7F; */
+    color: #65CCF5;
+    font-size: 1.5rem;
+}
+.navbar-nav a:hover{
+    color: white;
+}
+/* styling header done*/
+
+/* styling banner */
+.banner{
+    background: url(../img/pexels-engin-akyurt-1463917.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.banner p{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.banner button{
+    background-color: #592b7f;
+    padding: 10px;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    font-size: 1.5rem;
+}
+.banner button:hover{
+    background-color: black;
+}
+.banner .bancont{
+    background-color: #65CCF5;
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    text-align: center;
+    padding: 20px 0;
+}
+/* styling banner done */
+
+/* styling content */
+.altra{
+    color: #65CCF5;
+}
+.resource{
+    color: #592b7f;
+}
+.welcome{
+    padding: 5% 0;
+}
+/* .welcome h1{
+   font-size: 2rem;
+} */
+.welcome p{
+    font-size: 1.5rem;
+}
+.port{
+    background-color: #65CCF5;
+    padding: 5% 0;
+}
+.port .card{
+    border-radius: 2rem;
+    border: 1px solid #65CCF5;
+    padding-bottom: 5%;
+}
+.port img{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    height: 200px;
+}
+.port h5{
+    font-size: 2rem;
+}
+.contact{
+    background-color: whitesmoke;
+    padding: 5% 0;
+}
+.contact h1{
+    font-size: 3rem;
+}
+.contact label{
+    font-size: 1.5rem;
+}
+.contact input{
+    font-size: 1.5rem;
+}
+.contact textarea{
+    font-size: 1.5rem;
+}
+.contact button{
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #592b7f;
+    color: white;
+    border: none;
+    width: 30%;
+}
+.contact button:hover{
+    background-color: black;
+}
+.cinfo{
+    margin-top: 5% !important;
+}
+.cinfo p{
+    font-size: 2rem;
+    margin-left: 10%;
+}
+.cinfo i{
+    margin-right: 10px;
+    color: #592b7f;
+}
+.cinfo .sm{
+    margin-left: 10%;
+}
+.cinfo .sm i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+#footer{
+    padding: 1% 0;
+    font-size: 1.3rem;
+}
+/* styling content done */
+
+@media (min-width: 300px) and (max-width: 768px){
+    .navbar-toggler{
+        background-color: #65CCF5 !important;
+    }
+    .banner{
+        background: url(../img/pexels-engin-akyurt-1463917.jpg);
+        background-position: bottom center;
+        background-size: cover;
+        height: 40vh;
+        position: relative;
+    }
+    .banner .bancont{
+        background-color: #65CCF5;
+        width: 50%;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .banner p{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .banner button{
+        background-color: #592b7f;
+        padding: 10px;
+        border: none;
+        border-radius: 24px;
+        color: white;
+        font-size: 1.3rem;
+    }
+    .port .card{
+        border-radius: 2rem;
+        border: 1px solid #65CCF5;
+        padding-bottom: 5%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .port img{
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        height: 200px;
+    }
+    .contact form{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cinfo p{
+        font-size: 1.8rem;
+        margin-left: 15%;
+    }
+    .cinfo .sm{
+        margin-left: 15%;
+    }
+    .cinfo{
+        margin-top: 10% !important;
+        margin-bottom: 5% !important;
+    }
+    .port h1{
+        font-size: 3rem;
+    }
+    .welcome h1{
+        font-size: 2rem;
+     }
+     .card .card-text{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 980px){
+    .cinfo p{
+        font-size: 1.7rem;
+        margin-left: 0%;
+        margin-left: 10% !important;
+    }
+    .navbar-toggler{
+        background-color: #65CCF5 !important;
+    }
+    .card .card-text{
+        font-size: 1.3rem;
+    }
+}
